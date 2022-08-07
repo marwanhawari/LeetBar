@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE424A7E28938AFA00672541 /* LeetBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A7D28938AFA00672541 /* LeetBarApp.swift */; };
+		CE424A8228938AFA00672541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE424A8128938AFA00672541 /* Assets.xcassets */; };
+		CE424A8528938AFA00672541 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE424A8428938AFA00672541 /* Preview Assets.xcassets */; };
+		CE424A9628938B2A00672541 /* QuestionOfToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9128938B2A00672541 /* QuestionOfToday.swift */; };
+		CE424A9928938B2A00672541 /* UserProblemsSolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9428938B2A00672541 /* UserProblemsSolved.swift */; };
+		CE424A9A28938B2A00672541 /* GraphQLPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9528938B2A00672541 /* GraphQLPayload.swift */; };
+		CE424AA128938B3500672541 /* QuestionOfTodayVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9C28938B3500672541 /* QuestionOfTodayVM.swift */; };
+		CE424AA328938B3500672541 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9E28938B3500672541 /* ViewModel.swift */; };
+		CE424AA428938B3500672541 /* UserProblemsSolvedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9F28938B3500672541 /* UserProblemsSolvedVM.swift */; };
+		CE424AA828938B3B00672541 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AA728938B3B00672541 /* ContentView.swift */; };
+		CE424AAB28938B9400672541 /* GraphQLQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AAA28938B9400672541 /* GraphQLQueries.swift */; };
+		CE424AAD28938C1400672541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AAC28938C1400672541 /* AppDelegate.swift */; };
+		CE424AAF28938CC300672541 /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AAE28938CC300672541 /* AppMenu.swift */; };
+		CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB128938F7500672541 /* DailyProblemView.swift */; };
+		CE424AB428938FA900672541 /* ProblemsSolvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB328938FA900672541 /* ProblemsSolvedView.swift */; };
+		CE424AB62893905800672541 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB52893905800672541 /* ViewModifiers.swift */; };
+		CE424AB82893BA5200672541 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* SettingsView.swift */; };
+		CE65E7FC289626F800152A0A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FB289626F800152A0A /* Notifications.swift */; };
+		CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FD2896650900152A0A /* OnboardingView.swift */; };
+		CE65E80028966A8D00152A0A /* LeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FF28966A8D00152A0A /* LeetView.swift */; };
+		CE65E811289D912600152A0A /* LeetBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E810289D912600152A0A /* LeetBarTests.swift */; };
+		CE65E81B289D98F900152A0A /* MockLeetServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81A289D98F900152A0A /* MockLeetServices.swift */; };
+		CE65E81D289DA33400152A0A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81C289DA33400152A0A /* Services.swift */; };
+		CE65E81F289DAB0300152A0A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81E289DAB0300152A0A /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE65E812289D912600152A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE424A7228938AFA00672541 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE424A7928938AFA00672541;
+			remoteInfo = LeetBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE424A7A28938AFA00672541 /* LeetBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE424A7D28938AFA00672541 /* LeetBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetBarApp.swift; sourceTree = "<group>"; };
+		CE424A8128938AFA00672541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE424A8428938AFA00672541 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE424A8628938AFA00672541 /* LeetBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeetBar.entitlements; sourceTree = "<group>"; };
+		CE424A9128938B2A00672541 /* QuestionOfToday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionOfToday.swift; sourceTree = "<group>"; };
+		CE424A9428938B2A00672541 /* UserProblemsSolved.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProblemsSolved.swift; sourceTree = "<group>"; };
+		CE424A9528938B2A00672541 /* GraphQLPayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLPayload.swift; sourceTree = "<group>"; };
+		CE424A9C28938B3500672541 /* QuestionOfTodayVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionOfTodayVM.swift; sourceTree = "<group>"; };
+		CE424A9E28938B3500672541 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CE424A9F28938B3500672541 /* UserProblemsSolvedVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProblemsSolvedVM.swift; sourceTree = "<group>"; };
+		CE424AA728938B3B00672541 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE424AAA28938B9400672541 /* GraphQLQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLQueries.swift; sourceTree = "<group>"; };
+		CE424AAC28938C1400672541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE424AAE28938CC300672541 /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
+		CE424AB028938D9F00672541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CE424AB128938F7500672541 /* DailyProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProblemView.swift; sourceTree = "<group>"; };
+		CE424AB328938FA900672541 /* ProblemsSolvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsSolvedView.swift; sourceTree = "<group>"; };
+		CE424AB52893905800672541 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		CE424AB72893BA5200672541 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE65E7FB289626F800152A0A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		CE65E7FD2896650900152A0A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		CE65E7FF28966A8D00152A0A /* LeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetView.swift; sourceTree = "<group>"; };
+		CE65E80E289D912600152A0A /* LeetBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE65E810289D912600152A0A /* LeetBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetBarTests.swift; sourceTree = "<group>"; };
+		CE65E81A289D98F900152A0A /* MockLeetServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeetServices.swift; sourceTree = "<group>"; };
+		CE65E81C289DA33400152A0A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		CE65E81E289DAB0300152A0A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE424A7728938AFA00672541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE65E80B289D912600152A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE424A7128938AFA00672541 = {
+			isa = PBXGroup;
+			children = (
+				CE424A7C28938AFA00672541 /* LeetBar */,
+				CE65E80F289D912600152A0A /* LeetBarTests */,
+				CE424A7B28938AFA00672541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE424A7B28938AFA00672541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE424A7A28938AFA00672541 /* LeetBar.app */,
+				CE65E80E289D912600152A0A /* LeetBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE424A7C28938AFA00672541 /* LeetBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE424AB028938D9F00672541 /* Info.plist */,
+				CE424A7D28938AFA00672541 /* LeetBarApp.swift */,
+				CE424AAC28938C1400672541 /* AppDelegate.swift */,
+				CE424AAE28938CC300672541 /* AppMenu.swift */,
+				CE424AA628938B3B00672541 /* Views */,
+				CE424A9B28938B3500672541 /* ViewModels */,
+				CE424A9028938B2A00672541 /* Models */,
+				CE424A8C28938B0700672541 /* Utilities */,
+				CE424AA928938B9400672541 /* Constants */,
+				CE424A8128938AFA00672541 /* Assets.xcassets */,
+				CE424A8628938AFA00672541 /* LeetBar.entitlements */,
+				CE424A8328938AFA00672541 /* Preview Content */,
+			);
+			path = LeetBar;
+			sourceTree = "<group>";
+		};
+		CE424A8328938AFA00672541 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE424A8428938AFA00672541 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE424A8C28938B0700672541 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CE65E81C289DA33400152A0A /* Services.swift */,
+				CE65E7FB289626F800152A0A /* Notifications.swift */,
+				CE424AB52893905800672541 /* ViewModifiers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE424A9028938B2A00672541 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE424A9528938B2A00672541 /* GraphQLPayload.swift */,
+				CE424A9428938B2A00672541 /* UserProblemsSolved.swift */,
+				CE424A9128938B2A00672541 /* QuestionOfToday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE424A9B28938B3500672541 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE424A9E28938B3500672541 /* ViewModel.swift */,
+				CE424A9F28938B3500672541 /* UserProblemsSolvedVM.swift */,
+				CE424A9C28938B3500672541 /* QuestionOfTodayVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE424AA628938B3B00672541 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE424AA728938B3B00672541 /* ContentView.swift */,
+				CE65E7FD2896650900152A0A /* OnboardingView.swift */,
+				CE65E7FF28966A8D00152A0A /* LeetView.swift */,
+				CE424AB128938F7500672541 /* DailyProblemView.swift */,
+				CE424AB328938FA900672541 /* ProblemsSolvedView.swift */,
+				CE424AB72893BA5200672541 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE424AA928938B9400672541 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE424AAA28938B9400672541 /* GraphQLQueries.swift */,
+				CE65E81E289DAB0300152A0A /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE65E80F289D912600152A0A /* LeetBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE65E810289D912600152A0A /* LeetBarTests.swift */,
+				CE65E817289D984300152A0A /* Mocks */,
+			);
+			path = LeetBarTests;
+			sourceTree = "<group>";
+		};
+		CE65E817289D984300152A0A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CE65E81A289D98F900152A0A /* MockLeetServices.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE424A7928938AFA00672541 /* LeetBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE424A8928938AFA00672541 /* Build configuration list for PBXNativeTarget "LeetBar" */;
+			buildPhases = (
+				CE424A7628938AFA00672541 /* Sources */,
+				CE424A7728938AFA00672541 /* Frameworks */,
+				CE424A7828938AFA00672541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetBar;
+			productName = LeetBar;
+			productReference = CE424A7A28938AFA00672541 /* LeetBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE65E80D289D912600152A0A /* LeetBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE65E814289D912600152A0A /* Build configuration list for PBXNativeTarget "LeetBarTests" */;
+			buildPhases = (
+				CE65E80A289D912600152A0A /* Sources */,
+				CE65E80B289D912600152A0A /* Frameworks */,
+				CE65E80C289D912600152A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE65E813289D912600152A0A /* PBXTargetDependency */,
+			);
+			name = LeetBarTests;
+			productName = LeetBarTests;
+			productReference = CE65E80E289D912600152A0A /* LeetBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE424A7228938AFA00672541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CE424A7928938AFA00672541 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CE65E80D289D912600152A0A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CE424A7928938AFA00672541;
+					};
+				};
+			};
+			buildConfigurationList = CE424A7528938AFA00672541 /* Build configuration list for PBXProject "LeetBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE424A7128938AFA00672541;
+			productRefGroup = CE424A7B28938AFA00672541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE424A7928938AFA00672541 /* LeetBar */,
+				CE65E80D289D912600152A0A /* LeetBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE424A7828938AFA00672541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE424A8528938AFA00672541 /* Preview Assets.xcassets in Resources */,
+				CE424A8228938AFA00672541 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE65E80C289D912600152A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE424A7628938AFA00672541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE424AA428938B3500672541 /* UserProblemsSolvedVM.swift in Sources */,
+				CE65E81F289DAB0300152A0A /* Colors.swift in Sources */,
+				CE424AA828938B3B00672541 /* ContentView.swift in Sources */,
+				CE424AB62893905800672541 /* ViewModifiers.swift in Sources */,
+				CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */,
+				CE424AAD28938C1400672541 /* AppDelegate.swift in Sources */,
+				CE65E80028966A8D00152A0A /* LeetView.swift in Sources */,
+				CE424AB82893BA5200672541 /* SettingsView.swift in Sources */,
+				CE424A9A28938B2A00672541 /* GraphQLPayload.swift in Sources */,
+				CE424AA328938B3500672541 /* ViewModel.swift in Sources */,
+				CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */,
+				CE424AAB28938B9400672541 /* GraphQLQueries.swift in Sources */,
+				CE424AB428938FA900672541 /* ProblemsSolvedView.swift in Sources */,
+				CE424A9928938B2A00672541 /* UserProblemsSolved.swift in Sources */,
+				CE65E81D289DA33400152A0A /* Services.swift in Sources */,
+				CE424A9628938B2A00672541 /* QuestionOfToday.swift in Sources */,
+				CE65E7FC289626F800152A0A /* Notifications.swift in Sources */,
+				CE424AA128938B3500672541 /* QuestionOfTodayVM.swift in Sources */,
+				CE424AAF28938CC300672541 /* AppMenu.swift in Sources */,
+				CE424A7E28938AFA00672541 /* LeetBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE65E80A289D912600152A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE65E811289D912600152A0A /* LeetBarTests.swift in Sources */,
+				CE65E81B289D98F900152A0A /* MockLeetServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE65E813289D912600152A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE424A7928938AFA00672541 /* LeetBar */;
+			targetProxy = CE65E812289D912600152A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE424A8728938AFA00672541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE424A8828938AFA00672541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE424A8A28938AFA00672541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LeetBar/LeetBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"LeetBar/Preview Content\"";
+				DEVELOPMENT_TEAM = S8TLS5HCP7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeetBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Marwan Hawari. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marwanhawari.LeetBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE424A8B28938AFA00672541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LeetBar/LeetBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"LeetBar/Preview Content\"";
+				DEVELOPMENT_TEAM = S8TLS5HCP7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeetBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Marwan Hawari. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marwanhawari.LeetBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CE65E815289D912600152A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8TLS5HCP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marwanhawari.LeetBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetBar.app/Contents/MacOS/LeetBar";
+			};
+			name = Debug;
+		};
+		CE65E816289D912600152A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8TLS5HCP7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marwanhawari.LeetBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeetBar.app/Contents/MacOS/LeetBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE424A7528938AFA00672541 /* Build configuration list for PBXProject "LeetBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE424A8728938AFA00672541 /* Debug */,
+				CE424A8828938AFA00672541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE424A8928938AFA00672541 /* Build configuration list for PBXNativeTarget "LeetBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE424A8A28938AFA00672541 /* Debug */,
+				CE424A8B28938AFA00672541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE65E814289D912600152A0A /* Build configuration list for PBXNativeTarget "LeetBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE65E815289D912600152A0A /* Debug */,
+				CE65E816289D912600152A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE424A7228938AFA00672541 /* Project object */;
+}
