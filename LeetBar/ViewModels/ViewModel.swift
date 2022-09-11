@@ -67,7 +67,7 @@ final class ViewModel: ObservableObject {
 
     init(service: HTTPLeetService = LeetService()) {
         self.service = service
-        username = UserDefaults.standard.string(forKey: "username") ?? ""
+        self.username = UserDefaults.standard.string(forKey: "username") ?? ""
     }
     
     func fetchUserData(refreshEvent: RefreshEvent) async throws {
