@@ -43,6 +43,15 @@ class LeetBarTests: XCTestCase {
         assertInitialization(viewModel: vm)
         
     }
+
+    func test_ViewModel_username_isPersisted() {
+        vm = ViewModel(service: MockLeetServiceNil())
+
+        vm.username = "TestUsername"
+        vm = ViewModel(service: MockLeetServiceNil())
+
+        XCTAssertEqual(vm.username, "TestUsername")
+    }
     
     func assertInitialization(viewModel: ViewModel) {
         XCTAssertEqual(vm.dailyProblemLink, "", "dailyProblemLink")
