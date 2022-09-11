@@ -41,7 +41,7 @@ final class ViewModel: ObservableObject {
     @Published var allSolved: Int = 0
     @Published var allTotal: Int = 0
     
-    @Published var username: String = "" {
+    @Published var username: String {
         didSet {
             UserDefaults.standard.set(username, forKey: "username")
         }
