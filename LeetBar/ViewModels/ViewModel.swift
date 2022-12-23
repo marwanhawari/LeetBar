@@ -111,7 +111,7 @@ final class ViewModel: ObservableObject {
             questionOfToday = questionOfTodayResponseResult
         }
 
-        if refreshEvent == .changeUsername {
+        if refreshEvent != .backgroundRefresh {
             await cancelBackgroundTimer()
 
             if isValidUsername {
