@@ -51,7 +51,6 @@ final class ViewModel: ObservableObject {
     @Published var showLoading: Bool = true
     
     var openedWindow: Bool = false
-    var hasOpenedAfterFreshInstall: Bool = false
 
     private var lastRefreshed: Date = Date.distantPast
     private var backgroundTimer: Timer? = nil

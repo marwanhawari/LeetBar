@@ -21,15 +21,6 @@ struct ContentView: View {
             }
         }
         .environmentObject(vm)
-        .task {
-            if !vm.hasOpenedAfterFreshInstall { // if opening it for the first time since installing the app...
-                
-                // Request notifications
-                NotificationManager.instance.requestAuthorization()
-                
-                vm.hasOpenedAfterFreshInstall = true
-            }
-        }
     }
 }
 

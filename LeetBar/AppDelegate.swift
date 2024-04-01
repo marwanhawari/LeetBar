@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 class AppDelegate: NSObject, NSApplicationDelegate {
     static private(set) var instance: AppDelegate!
@@ -18,5 +19,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem.button?.image?.isTemplate = true
         statusBarItem.button?.imagePosition = .imageLeading
         statusBarItem.menu = menu.createMenu()
+
+        // Check notification authorization status before requesting
+        UNUserNotificationCenter.current().getNotificationSettings { settings in
+            if settings.authorizationStatus == .notDetermined {
+                // Only request authorization if it has not been requested before
+                NotificationManager.instance.requestAuthorization()
+            }
+        }
+    }
+
+    func applicationWillTerminate(_ notification: Notification) {
+        // Cancel all notifications when quitting the app
+        NotificationManager.instance.cancelNotifications()
     }
 }
