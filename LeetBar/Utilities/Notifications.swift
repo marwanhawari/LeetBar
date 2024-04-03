@@ -22,10 +22,11 @@ class NotificationManager {
         }
     }
     
-    func scheduleDailyProblemNotification(subtitle: String) {
+    func scheduleDailyProblemNotification(subtitle: String, problemLink: String) {
         let content = UNMutableNotificationContent()
         content.title = "New Daily Problem"
         content.subtitle = subtitle
+        content.userInfo = ["problemLink": problemLink]
         content.sound = UNNotificationSound.default
         
         let dailyProblemSchedule = DateComponents(

@@ -120,7 +120,7 @@ final class ViewModel: ObservableObject {
         
         NotificationManager.instance.cancelNotifications()
         if isValidUsername {
-            NotificationManager.instance.scheduleDailyProblemNotification(subtitle: dailyProblemString)
+            NotificationManager.instance.scheduleDailyProblemNotification(subtitle: dailyProblemString, problemLink: dailyProblemLink)
         }
 
         showLoading = false

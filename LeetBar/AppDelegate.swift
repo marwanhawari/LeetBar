@@ -8,7 +8,7 @@
 import SwiftUI
 import UserNotifications
 
-class AppDelegate: NSObject, NSApplicationDelegate {
+class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDelegate {
     static private(set) var instance: AppDelegate!
     lazy var statusBarItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     let menu = AppMenu()
@@ -19,6 +19,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem.button?.image?.isTemplate = true
         statusBarItem.button?.imagePosition = .imageLeading
         statusBarItem.menu = menu.createMenu()
+
+        UNUserNotificationCenter.current().delegate = self
 
         // Check notification authorization status before requesting
         UNUserNotificationCenter.current().getNotificationSettings { settings in
@@ -32,5 +34,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ notification: Notification) {
         // Cancel all notifications when quitting the app
         NotificationManager.instance.cancelNotifications()
+    }
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        let userInfo = response.notification.request.content.userInfo
+        if let problemLinkString = userInfo["problemLink"] as? String, let problemLink = URL(string: problemLinkString) {
+            NSWorkspace.shared.open(problemLink)
+        }
+        completionHandler()
     }
 }
