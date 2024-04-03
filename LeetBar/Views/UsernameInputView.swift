@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct UsernameInputView: View {
     @State private var username = ""
     @ObservedObject var vm: ViewModel
-    @EnvironmentObject private var usernameInputWindowController: SettingsWindowController
+    @EnvironmentObject private var usernameInputWindowController: UsernameInputWindowController
     
     var cleanedUsername: String {
         username.trimmingCharacters(in: .whitespacesAndNewlines)

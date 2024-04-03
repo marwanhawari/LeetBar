@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     @EnvironmentObject var vm: ViewModel
+    @EnvironmentObject private var usernameInputWindowController: UsernameInputWindowController
     
     var body: some View {
         
@@ -20,10 +21,7 @@ struct OnboardingView: View {
             }
             
             Button {
-                if !vm.openedWindow {
-                    vm.openedWindow = true
-                    SettingsView(vm: vm).openNewWindow()
-                }
+                usernameInputWindowController.open()
             } label: {
                 Label("Enter a Username", systemImage: "person.fill")
             }

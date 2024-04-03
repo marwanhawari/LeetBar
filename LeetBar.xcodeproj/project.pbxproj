@@ -18,12 +18,10 @@
 		CE424AA428938B3500672541 /* UserProblemsSolvedVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424A9F28938B3500672541 /* UserProblemsSolvedVM.swift */; };
 		CE424AA828938B3B00672541 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AA728938B3B00672541 /* ContentView.swift */; };
 		CE424AAB28938B9400672541 /* GraphQLQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AAA28938B9400672541 /* GraphQLQueries.swift */; };
-		CE424AAD28938C1400672541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AAC28938C1400672541 /* AppDelegate.swift */; };
-		CE424AAF28938CC300672541 /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AAE28938CC300672541 /* AppMenu.swift */; };
 		CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB128938F7500672541 /* DailyProblemView.swift */; };
 		CE424AB428938FA900672541 /* ProblemsSolvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB328938FA900672541 /* ProblemsSolvedView.swift */; };
 		CE424AB62893905800672541 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB52893905800672541 /* ViewModifiers.swift */; };
-		CE424AB82893BA5200672541 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* SettingsView.swift */; };
+		CE424AB82893BA5200672541 /* UsernameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* UsernameInputView.swift */; };
 		CE65E7FC289626F800152A0A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FB289626F800152A0A /* Notifications.swift */; };
 		CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FD2896650900152A0A /* OnboardingView.swift */; };
 		CE65E80028966A8D00152A0A /* LeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FF28966A8D00152A0A /* LeetView.swift */; };
@@ -31,6 +29,8 @@
 		CE65E81B289D98F900152A0A /* MockLeetServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81A289D98F900152A0A /* MockLeetServices.swift */; };
 		CE65E81D289DA33400152A0A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81C289DA33400152A0A /* Services.swift */; };
 		CE65E81F289DAB0300152A0A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81E289DAB0300152A0A /* Colors.swift */; };
+		CE6F27CE2BBD1BCB00740BF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F27CD2BBD1BCB00740BF9 /* AppDelegate.swift */; };
+		CE6F27D02BBD1C3500740BF9 /* UsernameInputWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F27CF2BBD1C3500740BF9 /* UsernameInputWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,11 @@
 		CE424A9F28938B3500672541 /* UserProblemsSolvedVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProblemsSolvedVM.swift; sourceTree = "<group>"; };
 		CE424AA728938B3B00672541 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE424AAA28938B9400672541 /* GraphQLQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphQLQueries.swift; sourceTree = "<group>"; };
-		CE424AAC28938C1400672541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE424AAE28938CC300672541 /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
 		CE424AB028938D9F00672541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CE424AB128938F7500672541 /* DailyProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProblemView.swift; sourceTree = "<group>"; };
 		CE424AB328938FA900672541 /* ProblemsSolvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsSolvedView.swift; sourceTree = "<group>"; };
 		CE424AB52893905800672541 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
-		CE424AB72893BA5200672541 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE424AB72893BA5200672541 /* UsernameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputView.swift; sourceTree = "<group>"; };
 		CE65E7FB289626F800152A0A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		CE65E7FD2896650900152A0A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CE65E7FF28966A8D00152A0A /* LeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetView.swift; sourceTree = "<group>"; };
@@ -72,6 +70,8 @@
 		CE65E81A289D98F900152A0A /* MockLeetServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeetServices.swift; sourceTree = "<group>"; };
 		CE65E81C289DA33400152A0A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		CE65E81E289DAB0300152A0A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CE6F27CD2BBD1BCB00740BF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6F27CF2BBD1C3500740BF9 /* UsernameInputWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,7 @@
 			children = (
 				CE424AB028938D9F00672541 /* Info.plist */,
 				CE424A7D28938AFA00672541 /* LeetBarApp.swift */,
-				CE424AAC28938C1400672541 /* AppDelegate.swift */,
-				CE424AAE28938CC300672541 /* AppMenu.swift */,
+				CE6F27CD2BBD1BCB00740BF9 /* AppDelegate.swift */,
 				CE424AA628938B3B00672541 /* Views */,
 				CE424A9B28938B3500672541 /* ViewModels */,
 				CE424A9028938B2A00672541 /* Models */,
@@ -171,11 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				CE424AA728938B3B00672541 /* ContentView.swift */,
+				CE6F27CF2BBD1C3500740BF9 /* UsernameInputWindowController.swift */,
 				CE65E7FD2896650900152A0A /* OnboardingView.swift */,
 				CE65E7FF28966A8D00152A0A /* LeetView.swift */,
 				CE424AB128938F7500672541 /* DailyProblemView.swift */,
 				CE424AB328938FA900672541 /* ProblemsSolvedView.swift */,
-				CE424AB72893BA5200672541 /* SettingsView.swift */,
+				CE424AB72893BA5200672541 /* UsernameInputView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,10 +311,10 @@
 				CE424AA828938B3B00672541 /* ContentView.swift in Sources */,
 				CE424AB62893905800672541 /* ViewModifiers.swift in Sources */,
 				CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */,
-				CE424AAD28938C1400672541 /* AppDelegate.swift in Sources */,
 				CE65E80028966A8D00152A0A /* LeetView.swift in Sources */,
-				CE424AB82893BA5200672541 /* SettingsView.swift in Sources */,
+				CE424AB82893BA5200672541 /* UsernameInputView.swift in Sources */,
 				CE424A9A28938B2A00672541 /* GraphQLPayload.swift in Sources */,
+				CE6F27CE2BBD1BCB00740BF9 /* AppDelegate.swift in Sources */,
 				CE424AA328938B3500672541 /* ViewModel.swift in Sources */,
 				CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */,
 				CE424AAB28938B9400672541 /* GraphQLQueries.swift in Sources */,
@@ -324,7 +324,7 @@
 				CE424A9628938B2A00672541 /* QuestionOfToday.swift in Sources */,
 				CE65E7FC289626F800152A0A /* Notifications.swift in Sources */,
 				CE424AA128938B3500672541 /* QuestionOfTodayVM.swift in Sources */,
-				CE424AAF28938CC300672541 /* AppMenu.swift in Sources */,
+				CE6F27D02BBD1C3500740BF9 /* UsernameInputWindowController.swift in Sources */,
 				CE424A7E28938AFA00672541 /* LeetBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

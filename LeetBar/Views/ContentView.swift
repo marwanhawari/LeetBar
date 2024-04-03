@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject private var vm: ViewModel
+    @EnvironmentObject private var usernameInputWindowController: UsernameInputWindowController
     
     var body: some View {
         Group {
@@ -19,5 +20,8 @@ struct ContentView: View {
             }
         }
         .frame(width: 400, height: 430)
+        .sheet(isPresented: $usernameInputWindowController.isPresented) {
+            UsernameInputView(vm: vm)
+        }
     }
 }

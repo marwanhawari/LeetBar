@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LeetView: View {
     @EnvironmentObject var vm: ViewModel
+    @EnvironmentObject private var usernameInputWindowController: UsernameInputWindowController
     
     var body: some View {
         VStack {
@@ -18,10 +19,7 @@ struct LeetView: View {
                     .bold()
                     .redacted(reason: vm.showLoading ? .placeholder : [])
                 Button {
-                    if !vm.openedWindow {
-                        vm.openedWindow = true
-                        SettingsView(vm: vm).openNewWindow()
-                    }
+                    usernameInputWindowController.open()
                 } label: {
                     Label("Change Username", systemImage: "person.fill")
                 }

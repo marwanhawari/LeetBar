@@ -11,11 +11,13 @@ import SwiftUI
 struct LeetBarApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var vm = ViewModel()
+    @StateObject private var usernameInputWindowController = UsernameInputWindowController()
 
     var body: some Scene {
         MenuBarExtra("LeetBar", image: "LeetBarIcon") {
             ContentView()
                 .environmentObject(vm)
+                .environmentObject(usernameInputWindowController)
         }
         .menuBarExtraStyle(.window)
     }
