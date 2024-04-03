@@ -8,18 +8,14 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @Environment(\.presentationMode) var presentationMode
-    
     var body: some View {
-        VStack {
-            Text("Settings")
-                .font(.title)
-                .padding()
-            
-            Button("Close") {
-                presentationMode.wrappedValue.dismiss()
-            }
+        VStack(alignment: .leading) {
+            LaunchAtLogin.Toggle()
+            Text("Automatically launches LeetBar when you start your Mac")
+                .foregroundStyle(.secondary)
+                .font(.caption)
         }
-        .frame(width: 400, height: 300)
+        .padding()
+        .frame(width: 325, height: 100)
     }
 }

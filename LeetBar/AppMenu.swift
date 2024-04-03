@@ -54,6 +54,7 @@ class AppMenu: NSObject {
             window.setContentSize(NSSize(width: 400, height: 300))
             window.styleMask.remove(.miniaturizable)
             window.styleMask.remove(.resizable)
+            window.level = .floating
             window.title = "Settings"
             window.center()
             window.setFrameAutosaveName("Settings")
