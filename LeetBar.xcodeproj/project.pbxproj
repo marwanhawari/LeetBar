@@ -31,6 +31,7 @@
 		CE65E81B289D98F900152A0A /* MockLeetServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81A289D98F900152A0A /* MockLeetServices.swift */; };
 		CE65E81D289DA33400152A0A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81C289DA33400152A0A /* Services.swift */; };
 		CE65E81F289DAB0300152A0A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81E289DAB0300152A0A /* Colors.swift */; };
+		CE7506C92BBD29F800B6584D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7506C82BBD29F800B6584D /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		CE65E81A289D98F900152A0A /* MockLeetServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeetServices.swift; sourceTree = "<group>"; };
 		CE65E81C289DA33400152A0A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		CE65E81E289DAB0300152A0A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CE7506C82BBD29F800B6584D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				CE424AB128938F7500672541 /* DailyProblemView.swift */,
 				CE424AB328938FA900672541 /* ProblemsSolvedView.swift */,
 				CE424AB72893BA5200672541 /* UsernameInputView.swift */,
+				CE7506C82BBD29F800B6584D /* Settings.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				CE424A9628938B2A00672541 /* QuestionOfToday.swift in Sources */,
 				CE65E7FC289626F800152A0A /* Notifications.swift in Sources */,
 				CE424AA128938B3500672541 /* QuestionOfTodayVM.swift in Sources */,
+				CE7506C92BBD29F800B6584D /* Settings.swift in Sources */,
 				CE424AAF28938CC300672541 /* AppMenu.swift in Sources */,
 				CE424A7E28938AFA00672541 /* LeetBarApp.swift in Sources */,
 			);
