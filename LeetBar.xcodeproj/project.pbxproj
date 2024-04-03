@@ -23,7 +23,7 @@
 		CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB128938F7500672541 /* DailyProblemView.swift */; };
 		CE424AB428938FA900672541 /* ProblemsSolvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB328938FA900672541 /* ProblemsSolvedView.swift */; };
 		CE424AB62893905800672541 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB52893905800672541 /* ViewModifiers.swift */; };
-		CE424AB82893BA5200672541 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* SettingsView.swift */; };
+		CE424AB82893BA5200672541 /* UsernameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* UsernameInputView.swift */; };
 		CE65E7FC289626F800152A0A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FB289626F800152A0A /* Notifications.swift */; };
 		CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FD2896650900152A0A /* OnboardingView.swift */; };
 		CE65E80028966A8D00152A0A /* LeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FF28966A8D00152A0A /* LeetView.swift */; };
@@ -63,7 +63,7 @@
 		CE424AB128938F7500672541 /* DailyProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProblemView.swift; sourceTree = "<group>"; };
 		CE424AB328938FA900672541 /* ProblemsSolvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsSolvedView.swift; sourceTree = "<group>"; };
 		CE424AB52893905800672541 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
-		CE424AB72893BA5200672541 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE424AB72893BA5200672541 /* UsernameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputView.swift; sourceTree = "<group>"; };
 		CE65E7FB289626F800152A0A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		CE65E7FD2896650900152A0A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CE65E7FF28966A8D00152A0A /* LeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetView.swift; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 				CE65E7FF28966A8D00152A0A /* LeetView.swift */,
 				CE424AB128938F7500672541 /* DailyProblemView.swift */,
 				CE424AB328938FA900672541 /* ProblemsSolvedView.swift */,
-				CE424AB72893BA5200672541 /* SettingsView.swift */,
+				CE424AB72893BA5200672541 /* UsernameInputView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 				CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */,
 				CE424AAD28938C1400672541 /* AppDelegate.swift in Sources */,
 				CE65E80028966A8D00152A0A /* LeetView.swift in Sources */,
-				CE424AB82893BA5200672541 /* SettingsView.swift in Sources */,
+				CE424AB82893BA5200672541 /* UsernameInputView.swift in Sources */,
 				CE424A9A28938B2A00672541 /* GraphQLPayload.swift in Sources */,
 				CE424AA328938B3500672541 /* ViewModel.swift in Sources */,
 				CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */,

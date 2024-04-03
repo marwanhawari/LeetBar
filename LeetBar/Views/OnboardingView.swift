@@ -22,7 +22,7 @@ struct OnboardingView: View {
             Button {
                 if !vm.openedWindow {
                     vm.openedWindow = true
-                    SettingsView(vm: vm).openNewWindow()
+                    UsernameInputView(vm: vm).openNewWindow()
                 }
             } label: {
                 Label("Enter a Username", systemImage: "person.fill")
