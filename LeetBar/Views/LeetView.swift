@@ -20,7 +20,7 @@ struct LeetView: View {
                 Button {
                     if !vm.openedWindow {
                         vm.openedWindow = true
-                        SettingsView(vm: vm).openNewWindow()
+                        UsernameInputView(vm: vm).openNewWindow()
                     }
                 } label: {
                     Label("Change Username", systemImage: "person.fill")

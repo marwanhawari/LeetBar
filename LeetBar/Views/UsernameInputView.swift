@@ -1,5 +1,5 @@
 //
-//  SettingsView.swift
+//  UsernameInputView.swift
 //  LeetBar
 //
 //  Created by Marwan Hawari on 7/28/22.
@@ -27,7 +27,7 @@ extension View {
     }
 }
 
-struct SettingsView: View {
+struct UsernameInputView: View {
     @State private var username = ""
     @ObservedObject var vm: ViewModel
     

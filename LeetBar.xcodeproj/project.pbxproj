@@ -23,7 +23,7 @@
 		CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB128938F7500672541 /* DailyProblemView.swift */; };
 		CE424AB428938FA900672541 /* ProblemsSolvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB328938FA900672541 /* ProblemsSolvedView.swift */; };
 		CE424AB62893905800672541 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB52893905800672541 /* ViewModifiers.swift */; };
-		CE424AB82893BA5200672541 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* SettingsView.swift */; };
+		CE424AB82893BA5200672541 /* UsernameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE424AB72893BA5200672541 /* UsernameInputView.swift */; };
 		CE65E7FC289626F800152A0A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FB289626F800152A0A /* Notifications.swift */; };
 		CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FD2896650900152A0A /* OnboardingView.swift */; };
 		CE65E80028966A8D00152A0A /* LeetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E7FF28966A8D00152A0A /* LeetView.swift */; };
@@ -31,6 +31,8 @@
 		CE65E81B289D98F900152A0A /* MockLeetServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81A289D98F900152A0A /* MockLeetServices.swift */; };
 		CE65E81D289DA33400152A0A /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81C289DA33400152A0A /* Services.swift */; };
 		CE65E81F289DAB0300152A0A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65E81E289DAB0300152A0A /* Colors.swift */; };
+		CE7506C92BBD29F800B6584D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7506C82BBD29F800B6584D /* Settings.swift */; };
+		CE7506CF2BBD361600B6584D /* LaunchAtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7506CE2BBD361600B6584D /* LaunchAtLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +65,7 @@
 		CE424AB128938F7500672541 /* DailyProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyProblemView.swift; sourceTree = "<group>"; };
 		CE424AB328938FA900672541 /* ProblemsSolvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsSolvedView.swift; sourceTree = "<group>"; };
 		CE424AB52893905800672541 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
-		CE424AB72893BA5200672541 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE424AB72893BA5200672541 /* UsernameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameInputView.swift; sourceTree = "<group>"; };
 		CE65E7FB289626F800152A0A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		CE65E7FD2896650900152A0A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CE65E7FF28966A8D00152A0A /* LeetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,8 @@
 		CE65E81A289D98F900152A0A /* MockLeetServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLeetServices.swift; sourceTree = "<group>"; };
 		CE65E81C289DA33400152A0A /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		CE65E81E289DAB0300152A0A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CE7506C82BBD29F800B6584D /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CE7506CE2BBD361600B6584D /* LaunchAtLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,7 @@
 				CE65E81C289DA33400152A0A /* Services.swift */,
 				CE65E7FB289626F800152A0A /* Notifications.swift */,
 				CE424AB52893905800672541 /* ViewModifiers.swift */,
+				CE7506CE2BBD361600B6584D /* LaunchAtLogin.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -175,7 +180,8 @@
 				CE65E7FF28966A8D00152A0A /* LeetView.swift */,
 				CE424AB128938F7500672541 /* DailyProblemView.swift */,
 				CE424AB328938FA900672541 /* ProblemsSolvedView.swift */,
-				CE424AB72893BA5200672541 /* SettingsView.swift */,
+				CE424AB72893BA5200672541 /* UsernameInputView.swift */,
+				CE7506C82BBD29F800B6584D /* Settings.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -313,7 +319,7 @@
 				CE65E7FE2896650900152A0A /* OnboardingView.swift in Sources */,
 				CE424AAD28938C1400672541 /* AppDelegate.swift in Sources */,
 				CE65E80028966A8D00152A0A /* LeetView.swift in Sources */,
-				CE424AB82893BA5200672541 /* SettingsView.swift in Sources */,
+				CE424AB82893BA5200672541 /* UsernameInputView.swift in Sources */,
 				CE424A9A28938B2A00672541 /* GraphQLPayload.swift in Sources */,
 				CE424AA328938B3500672541 /* ViewModel.swift in Sources */,
 				CE424AB228938F7500672541 /* DailyProblemView.swift in Sources */,
@@ -323,7 +329,9 @@
 				CE65E81D289DA33400152A0A /* Services.swift in Sources */,
 				CE424A9628938B2A00672541 /* QuestionOfToday.swift in Sources */,
 				CE65E7FC289626F800152A0A /* Notifications.swift in Sources */,
+				CE7506CF2BBD361600B6584D /* LaunchAtLogin.swift in Sources */,
 				CE424AA128938B3500672541 /* QuestionOfTodayVM.swift in Sources */,
+				CE7506C92BBD29F800B6584D /* Settings.swift in Sources */,
 				CE424AAF28938CC300672541 /* AppMenu.swift in Sources */,
 				CE424A7E28938AFA00672541 /* LeetBarApp.swift in Sources */,
 			);
@@ -400,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -455,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -487,7 +495,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marwanhawari.LeetBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,7 +527,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marwanhawari.LeetBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
