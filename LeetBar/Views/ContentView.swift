@@ -8,27 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @StateObject var vm = ViewModel()
+    @EnvironmentObject private var vm: ViewModel
     
     var body: some View {
-        
         Group {
-            if vm.username != "" {
-                LeetView()
-            } else {
+            if vm.username.isEmpty {
                 OnboardingView()
+            } else {
+                LeetView()
             }
         }
-        .environmentObject(vm)
+        .frame(width: 400, height: 430)
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-            .frame(width: 400, height: 430)
-    }
-}
-
-

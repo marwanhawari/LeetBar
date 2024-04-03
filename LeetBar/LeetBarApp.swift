@@ -10,10 +10,13 @@ import SwiftUI
 @main
 struct LeetBarApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
+    @StateObject private var vm = ViewModel()
+
     var body: some Scene {
-        Settings {
-            EmptyView()
+        MenuBarExtra("LeetBar", image: "LeetBarIcon") {
+            ContentView()
+                .environmentObject(vm)
         }
+        .menuBarExtraStyle(.window)
     }
 }

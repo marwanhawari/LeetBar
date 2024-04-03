@@ -9,19 +9,9 @@ import SwiftUI
 import UserNotifications
 
 class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDelegate {
-    static private(set) var instance: AppDelegate!
-    lazy var statusBarItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
-    let menu = AppMenu()
-    
     func applicationDidFinishLaunching(_ notification: Notification) {
-        AppDelegate.instance = self
-        statusBarItem.button?.image = NSImage(named: NSImage.Name("LeetBarIcon"))
-        statusBarItem.button?.image?.isTemplate = true
-        statusBarItem.button?.imagePosition = .imageLeading
-        statusBarItem.menu = menu.createMenu()
-
         UNUserNotificationCenter.current().delegate = self
-
+        
         // Check notification authorization status before requesting
         UNUserNotificationCenter.current().getNotificationSettings { settings in
             if settings.authorizationStatus == .notDetermined {
