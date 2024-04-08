@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var vm = ViewModel()
+    @ObservedObject private var vm = ViewModel.shared
     
     var body: some View {
         

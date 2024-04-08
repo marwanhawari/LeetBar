@@ -16,6 +16,7 @@ enum RefreshEvent: String {
 
 @MainActor
 final class ViewModel: ObservableObject {
+    static let shared = ViewModel()
     
     @Published var userProblemsSolved: UserProblemsSolved? = nil
     @Published var questionOfToday: QuestionOfToday? = nil
@@ -64,7 +65,7 @@ final class ViewModel: ObservableObject {
     
     var service: HTTPLeetService
 
-    init(service: HTTPLeetService = LeetService()) {
+    private init(service: HTTPLeetService = LeetService()) {
         self.service = service
         self.username = UserDefaults.standard.string(forKey: "username") ?? ""
     }

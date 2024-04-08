@@ -29,6 +29,14 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
                 NotificationManager.instance.requestAuthorization()
             }
         }
+        
+        // Use ViewModel.shared to perform initial data fetch and setup
+        if !ViewModel.shared.username.isEmpty {
+            Task {
+                try? await ViewModel.shared.fetchUserData(refreshEvent: .openMenu)
+            }
+        }
+
     }
 
     func applicationWillTerminate(_ notification: Notification) {
