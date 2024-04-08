@@ -60,6 +60,7 @@ class AppMenu: NSObject {
             window.setFrameAutosaveName("Settings")
             window.makeKeyAndOrderFront(nil)
             window.orderFrontRegardless()
+            NSApp.activate(ignoringOtherApps: true)
             
             settingsWindow = window
             
@@ -67,6 +68,7 @@ class AppMenu: NSObject {
         } else {
             settingsWindow?.makeKeyAndOrderFront(nil)
             settingsWindow?.orderFrontRegardless()
+            NSApp.activate(ignoringOtherApps: true)
         }
     }
     
