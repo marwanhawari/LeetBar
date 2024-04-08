@@ -27,7 +27,7 @@ class AppMenu: NSObject {
         aboutMenuItem.target = self
         menu.addItem(aboutMenuItem)
         
-        let settingsMenuItem = NSMenuItem(title: "Settings",
+        let settingsMenuItem = NSMenuItem(title: "Settings...",
                                           action: #selector(settings),
                                           keyEquivalent: ",")
         settingsMenuItem.target = self
